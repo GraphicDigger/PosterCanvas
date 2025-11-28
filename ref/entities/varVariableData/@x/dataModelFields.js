@@ -1,0 +1,1 @@
+export { useDataModelFields } from '../../dataModelField';

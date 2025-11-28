@@ -1,0 +1,10 @@
+:root[data-theme="light"] {
+    --color-text-light: #ffffff;
+    --color-default: #e0e0e0;
+    --color-primary: #0070f3;
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-error: #dc3545;
+    --color-disabled: #cccccc;
+    --color-disabled-text: #666666;
+  }

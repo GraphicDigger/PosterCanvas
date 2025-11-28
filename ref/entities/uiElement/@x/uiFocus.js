@@ -1,0 +1,1 @@
+export { selectFocusedEntity } from '../../uiFocus';

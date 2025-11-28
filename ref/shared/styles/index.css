@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400,500;600;700&display=swap');
+
+/* Сброс отступов и полей */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+}
+
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #303133;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Сброс стилей для заголовков */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Сброс стилей для списков */
+ul, ol, ul[role="list"], ol[role="list"] {
+  list-style: none;
+}
+
+/* Сброс стилей для ссылок и кнопок */
+a, input, button {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+
+}
+
+/* Сброс стилей для кнопок */
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Сброс стилей для инпутов и текстовых областей */
+input, textarea, select {
+  font: inherit;
+  border: none;
+  background-color: transparent;
+}
+
+select {
+    -webkit-appearance: none; /* Убирает стандартный стиль в WebKit-браузерах (Chrome, Safari) */
+    -moz-appearance: none; /* Убирает стандартный стиль в Firefox */
+    appearance: none; /* Убирает стандартный стиль в современных браузерах */
+}
+
+/* Исправление проблем с вертикальным ритмом */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  background: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: #1E1E1F;
+}
+

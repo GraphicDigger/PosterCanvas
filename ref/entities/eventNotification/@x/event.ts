@@ -1,0 +1,1 @@
+export { selectEventEntities } from '../../event';

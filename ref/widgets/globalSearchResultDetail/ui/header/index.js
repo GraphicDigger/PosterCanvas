@@ -1,0 +1,2 @@
+
+export { DetailHeader } from './header';

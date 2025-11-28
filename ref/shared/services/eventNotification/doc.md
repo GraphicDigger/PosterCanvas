@@ -1,0 +1,1 @@
+docs in .cursor/rules/doc.Event.mdc

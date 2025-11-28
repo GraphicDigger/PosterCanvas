@@ -1,0 +1,2 @@
+export { commentControlMiddleware } from './comment';
+

@@ -1,0 +1,2 @@
+
+export { getFieldIcon } from './fieldIcons/';

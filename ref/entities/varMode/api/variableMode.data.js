@@ -1,0 +1,96 @@
+import { ENTITY_KINDS } from '../../../shared/constants';
+import { VARIABLE_MODE_TYPE } from '../model';
+
+export const variableModes = [
+  {
+    id: 'breakpoint-mode-1-collection-1',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    name: 'Desktop',
+    meta: {
+      maxWidth: '1440px',
+      minWidth: '1280px',
+    },
+    modeGroupId: 'group-1-breakpoint-mode',
+    isGlobal: true,
+    isDefault: true,
+    isProtected: true,
+  },
+  {
+    id: 'breakpoint-mode-2-collection-1',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    name: 'Tablet',
+    meta: {
+      maxWidth: '1280px',
+      minWidth: '1024px',
+    },
+    modeGroupId: 'group-1-breakpoint-mode',
+    isGlobal: true,
+    isProtected: true,
+  },
+  {
+    id: 'breakpoint-mode-3-collection-1',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    name: 'Phone',
+    meta: {
+      maxWidth: '1024px',
+      minWidth: '768px',
+    },
+    modeGroupId: 'group-1-breakpoint-mode',
+    isGlobal: true,
+    isProtected: true,
+  },
+  {
+    id: 'theme-mode-1-collection-1',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    name: 'Light',
+    meta: { value: 'light' },
+    modeGroupId: 'group-2-theme-mode',
+    isGlobal: true,
+    isDefault: true,
+    isProtected: true,
+  },
+  {
+    id: 'theme-mode-2-collection-1',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    name: 'Dark',
+    meta: { value: 'dark' },
+    modeGroupId: 'group-2-theme-mode',
+    isGlobal: true,
+    isProtected: true,
+  },
+  {
+    id: 'mode-1-preset-collection-2',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    type: VARIABLE_MODE_TYPE.PRESET_MODE,
+    name: 'Value',
+    isDefault: true,
+  },
+  {
+    id: 'mode-1-collection-2',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    type: VARIABLE_MODE_TYPE.PRESET_MODE,
+    name: 'Value',
+    isDefault: true,
+  },
+  {
+    id: 'mode-1-color-token-collection-3',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    type: VARIABLE_MODE_TYPE.TOKEN_MODE,
+    name: 'Value',
+    isDefault: true,
+  },
+  {
+    id: 'mode-1-number-token-collection-4',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    type: VARIABLE_MODE_TYPE.TOKEN_MODE,
+    name: 'Value',
+    isDefault: true,
+  },
+  {
+    id: 'mode-1-string-token-collection-5',
+    kind: ENTITY_KINDS.VARIABLE_MODE,
+    type: VARIABLE_MODE_TYPE.TOKEN_MODE,
+    name: 'Value',
+    isDefault: true,
+  },
+];

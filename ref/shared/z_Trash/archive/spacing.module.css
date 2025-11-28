@@ -1,0 +1,16 @@
+:root {
+    --space-1: 2px;   /* 1 * 2px */
+    --space-2: 4px;   /* 2 * 2px */
+    --space-3: 6px;   /* 3 * 2px */
+    --space-4: 8px;   /* 4 * 2px */
+    --space-5: 10px;  /* 5 * 2px */
+    --space-6: 12px;  /* 6 * 2px */
+    --space-7: 14px;  /* 7 * 2px */
+    --space-8: 16px;  /* 8 * 2px */
+    --space-9: 18px;  /* 9 * 2px */
+    --space-10: 20px; /* 10 * 2px */
+    --space-11: 22px; /* 11 * 2px */
+    --space-12: 24px; /* 12 * 2px */
+    --space-13: 26px; /* 13 * 2px */
+    --space-14: 28px; /* 14 * 2px */
+}

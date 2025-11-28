@@ -1,0 +1,8 @@
+:root {
+    --br-xsmall: 4px;  /* Extra small */
+    --br-small: 6px;    /* Small */
+    --br-medium: 8px;   /* Medium */
+    --br-large: 12px;    /* Large */
+    --br-xlarge: 16px;   /* Extra large */
+}
+

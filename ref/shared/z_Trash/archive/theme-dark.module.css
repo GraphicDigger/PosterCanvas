@@ -1,0 +1,10 @@
+:root[data-theme="dark"] {
+    --color-text-light: #ffffff;
+    --color-default: #eb1212;
+    --color-primary: #4a1951;
+    --color-success: #eded21;
+    --color-warning: #514100;
+    --color-error: #f14668;
+    --color-disabled: #555555;
+    --color-disabled-text: #999999;
+  }

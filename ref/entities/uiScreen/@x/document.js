@@ -1,0 +1,3 @@
+export {
+  selectAllDocuments,
+} from '../../document';

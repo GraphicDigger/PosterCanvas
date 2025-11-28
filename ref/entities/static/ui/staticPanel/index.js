@@ -1,0 +1,1 @@
+export { StaticPanel } from './StaticPanel';

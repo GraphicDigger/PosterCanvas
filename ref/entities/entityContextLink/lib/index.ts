@@ -1,0 +1,1 @@
+export { getContextObject } from './getContextObject';

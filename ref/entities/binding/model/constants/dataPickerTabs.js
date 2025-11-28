@@ -1,0 +1,4 @@
+export const DATA_PICKER_TABS = {
+  PROPS: 'PROPS',
+  DATA_VARIABLES: 'DATA_VARIABLES',
+};

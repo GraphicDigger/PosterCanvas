@@ -1,0 +1,1 @@
+export { selectCompositeComponentById } from '../../uiComponent';

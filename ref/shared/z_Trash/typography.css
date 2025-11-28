@@ -1,0 +1,142 @@
+:root {
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-13: 13px;
+    --font-size-14: 14px;
+    --font-size-24: 24px;
+
+    --font-weight-md: 500; /* Medium */
+    --font-weight-sb: 600; /* Semi-bold */
+    --font-weight-bd: 700; /* Bold */
+
+    --line-height-0: 100%;
+    --line-height-1: 110%;
+    --line-height-2: 120%;
+    --line-height-3: 130%;
+    --line-height-4: 140%;
+    --line-height-5: 150%;
+    --line-height-fix-14: 14px;
+}
+
+/* Typography styles */
+
+.body-10-md {
+    font-size: var(--font-size-10);
+    font-weight: var(--font-weight-md);
+}
+
+.body-10-sb {
+    font-size: var(--font-size-10);
+    font-weight: var(--font-weight-sb);
+}
+
+.body-12-md {
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-md);
+    line-height: var(--line-height-3);
+
+}
+
+.body-12-sb {
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-sb);
+    line-height: var(--line-height-3);
+
+}
+
+.body-12-bd {
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-bd);
+    line-height: var(--line-height-3);
+}
+
+.body-13-md {
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-md);
+}
+
+.body-13-sb {
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-sb);
+}
+
+.body-13-bd {
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-bd);
+}
+
+.body-14-md {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-md);
+}
+
+.body-14-sb {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sb);
+}
+
+.body-14-bd {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bd);
+}
+
+.heading-24-bd {
+    font-size: 24px; /* You can also use a variable here if needed */
+    font-weight: var(--font-weight-bd);
+}
+
+/* Line height classes */
+
+.lh-0 {
+    line-height: var(--line-height-0);
+}
+
+.lh-1 {
+    line-height: var(--line-height-1);
+}
+
+.lh-2 {
+    line-height: var(--line-height-2);
+}
+
+.lh-3 {
+    line-height: var(--line-height-3);
+}
+
+.lh-4 {
+    line-height: var(--line-height-4);
+}
+
+.lh-5 {
+    line-height: var(--line-height-5);
+}
+
+.lh-fix-14 {
+    line-height: var(--line-height-fix-14);
+}
+
+/* New Inter font styles */
+.fw-md {
+    font-weight: var(--font-weight-md);
+}
+
+.fw-sb {
+    font-weight: var(--font-weight-sb);
+}
+
+.fw-bd {
+    font-weight: var(--font-weight-bd);
+}
+
+/* Font sizes */
+.fs-10 {
+    font-size: var(--font-size-10);
+}
+
+.fs-12 {
+    font-size: var(--font-size-12);
+}
+
+.fs-14 {
+    font-size: var(--font-size-14);
+}

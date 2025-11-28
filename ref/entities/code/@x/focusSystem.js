@@ -1,0 +1,1 @@
+export { useFocusEntity } from '../../uiFocus';

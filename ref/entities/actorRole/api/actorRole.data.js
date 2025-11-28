@@ -1,0 +1,121 @@
+import { ACTOR_TYPE } from '../model';
+import { ENTITY_KINDS } from '../../../shared/constants';
+
+export const actorRoles = [
+  {
+    id: 'role-1',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'UX Designer',
+    positionId: 'position-1',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: 'role-2',
+  },
+
+  {
+    id: 'role-2',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'UX Designer',
+    positionId: 'position-1',
+    actorType: ACTOR_TYPE.AGENT,
+    prompt: 'You are a UX designer',
+  },
+  {
+    id: 'role-3',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Frontend Developer',
+    positionId: 'position-2',
+    actorType: ACTOR_TYPE.AGENT,
+    prompt: 'You are a Senior Front-End Developer and an Expert in ReactJS, NextJS, JavaScript, TypeScript, HTML, CSS and modern UI/UX frameworks (e.g., TailwindCSS, Shadcn, Radix). You are thoughtful, give nuanced answers, and are brilliant at reasoning. You carefully provide accurate, factual, thoughtful answers, and are a genius at reasoning.',
+  },
+  {
+    id: 'role-4',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Frontend Developer',
+    positionId: 'position-2',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: 'role-3',
+  },
+  {
+    id: 'role-5',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Backend Developer',
+    positionId: 'position-2',
+    actorType: ACTOR_TYPE.AGENT,
+    prompt: 'You are a backend developer',
+  },
+  {
+    id: 'role-6',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Backend Developer',
+    positionId: 'position-2',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: 'role-5',
+  },
+  {
+    id: 'role-7',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Business Analyst',
+    positionId: 'position-3',
+    actorType: ACTOR_TYPE.AGENT,
+    prompt: 'You are a business analyst',
+  },
+  {
+    id: 'role-8',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Business Analyst',
+    positionId: 'position-3',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: 'role-7',
+  },
+  {
+    id: 'role-9',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Data Analyst',
+    positionId: 'position-3',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: '',
+  },
+  {
+    id: 'role-10',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Project Manager',
+    positionId: 'position-4',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: '',
+  },
+  {
+    id: 'role-11',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Product Manager',
+    positionId: 'position-4',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: '',
+  },
+  {
+    id: 'role-12',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Operations Manager',
+    positionId: 'position-4',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: '',
+  },
+  {
+    id: 'role-13',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'Manual QA',
+    positionId: 'position-5',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: '',
+  },
+  {
+    id: 'role-14',
+    kind: ENTITY_KINDS.ACTOR_ROLE,
+    name: 'QA Lead',
+    positionId: 'position-5',
+    actorType: ACTOR_TYPE.MEMBER,
+    agentRoleId: '',
+  },
+
+
+];
+

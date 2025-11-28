@@ -1,0 +1,1 @@
+// export { selectCompositeEntitiesByOwnership } from '../../entities';

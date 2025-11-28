@@ -1,0 +1,1 @@
+export { selectPropsByComponentId } from '../../varProp';

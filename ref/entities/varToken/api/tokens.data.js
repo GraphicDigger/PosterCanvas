@@ -1,0 +1,103 @@
+import { TOKEN_TYPES } from '../model/constants/tokenTypes';
+import { ENTITY_KINDS } from '../../../shared/constants';
+
+export const tokens = [
+  {
+    id: 'token-0',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-1',
+    name: 'Surface',
+  },
+  {
+    id: 'token-1',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '10',
+  },
+  {
+    id: 'token-2',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '20',
+  },
+  {
+    id: 'token-3',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '30',
+  },
+  {
+    id: 'token-4',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '40',
+  },
+  {
+    id: 'token-5',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '50',
+  },
+  {
+    id: 'token-6',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '60',
+  },
+  {
+    id: 'token-7',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '70',
+  },
+  {
+    id: 'token-8',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '80',
+  },
+  {
+    id: 'token-9',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.COLOR,
+    collectionId: 'token-color-collection-2',
+    name: '90',
+  },
+  {
+    id: 'token-10',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.NUMBER,
+    collectionId: 'token-number-collection-3',
+    name: 'small',
+  },
+  {
+    id: 'token-11',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.NUMBER,
+    name: 'medium',
+    collectionId: 'token-number-collection-3',
+  },
+  {
+    id: 'token-12',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.NUMBER,
+    name: 'large',
+    collectionId: 'token-number-collection-3',
+  },
+  {
+    id: 'token-13',
+    kind: ENTITY_KINDS.TOKEN,
+    type: TOKEN_TYPES.STRING,
+    collectionId: 'token-string-collection-4',
+    name: 'Test String',
+  },
+];

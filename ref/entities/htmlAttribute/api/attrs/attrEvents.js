@@ -1,0 +1,93 @@
+// All standard HTML event handler attributes.
+export const EVENT_HANDLER_ATTRIBUTES = [
+  // Clipboard Events
+  { id: 'id-event-onCopy', jsxName: 'onCopy', htmlName: 'oncopy' },
+  { id: 'id-event-onCut', jsxName: 'onCut', htmlName: 'oncut' },
+  { id: 'id-event-onPaste', jsxName: 'onPaste', htmlName: 'onpaste' },
+  // Composition Events
+  { id: 'id-event-onCompositionEnd', jsxName: 'onCompositionEnd', htmlName: 'oncompositionend' },
+  { id: 'id-event-onCompositionStart', jsxName: 'onCompositionStart', htmlName: 'oncompositionstart' },
+  { id: 'id-event-onCompositionUpdate', jsxName: 'onCompositionUpdate', htmlName: 'oncompositionupdate' },
+  // Keyboard Events
+  { id: 'id-event-onKeyDown', jsxName: 'onKeyDown', htmlName: 'onkeydown' },
+  { id: 'id-event-onKeyPress', jsxName: 'onKeyPress', htmlName: 'onkeypress' },
+  { id: 'id-event-onKeyUp', jsxName: 'onKeyUp', htmlName: 'onkeyup' },
+  // Focus Events
+  { id: 'id-event-onFocus', jsxName: 'onFocus', htmlName: 'onfocus' },
+  { id: 'id-event-onBlur', jsxName: 'onBlur', htmlName: 'onblur' },
+  // Form Events
+  { id: 'id-event-onChange', jsxName: 'onChange', htmlName: 'onchange' },
+  { id: 'id-event-onInput', jsxName: 'onInput', htmlName: 'oninput' },
+  { id: 'id-event-onReset', jsxName: 'onReset', htmlName: 'onreset' },
+  { id: 'id-event-onSubmit', jsxName: 'onSubmit', htmlName: 'onsubmit' },
+  { id: 'id-event-onInvalid', jsxName: 'onInvalid', htmlName: 'oninvalid' },
+  // Mouse Events
+  { id: 'id-event-onClick', jsxName: 'onClick', htmlName: 'onclick' },
+  { id: 'id-event-onContextMenu', jsxName: 'onContextMenu', htmlName: 'oncontextmenu' },
+  { id: 'id-event-onDoubleClick', jsxName: 'onDoubleClick', htmlName: 'ondblclick' },
+  { id: 'id-event-onDrag', jsxName: 'onDrag', htmlName: 'ondrag' },
+  { id: 'id-event-onDragEnd', jsxName: 'onDragEnd', htmlName: 'ondragend' },
+  { id: 'id-event-onDragEnter', jsxName: 'onDragEnter', htmlName: 'ondragenter' },
+  { id: 'id-event-onDragExit', jsxName: 'onDragExit', htmlName: 'ondragexit' },
+  { id: 'id-event-onDragLeave', jsxName: 'onDragLeave', htmlName: 'ondragleave' },
+  { id: 'id-event-onDragOver', jsxName: 'onDragOver', htmlName: 'ondragover' },
+  { id: 'id-event-onDragStart', jsxName: 'onDragStart', htmlName: 'ondragstart' },
+  { id: 'id-event-onDrop', jsxName: 'onDrop', htmlName: 'ondrop' },
+  { id: 'id-event-onMouseDown', jsxName: 'onMouseDown', htmlName: 'onmousedown' },
+  { id: 'id-event-onMouseEnter', jsxName: 'onMouseEnter', htmlName: 'onmouseenter' },
+  { id: 'id-event-onMouseLeave', jsxName: 'onMouseLeave', htmlName: 'onmouseleave' },
+  { id: 'id-event-onMouseMove', jsxName: 'onMouseMove', htmlName: 'onmousemove' },
+  { id: 'id-event-onMouseOut', jsxName: 'onMouseOut', htmlName: 'onmouseout' },
+  { id: 'id-event-onMouseOver', jsxName: 'onMouseOver', htmlName: 'onmouseover' },
+  { id: 'id-event-onMouseUp', jsxName: 'onMouseUp', htmlName: 'onmouseup' },
+  // Pointer Events
+  { id: 'id-event-onPointerDown', jsxName: 'onPointerDown', htmlName: 'onpointerdown' },
+  { id: 'id-event-onPointerMove', jsxName: 'onPointerMove', htmlName: 'onpointermove' },
+  { id: 'id-event-onPointerUp', jsxName: 'onPointerUp', htmlName: 'onpointerup' },
+  { id: 'id-event-onPointerCancel', jsxName: 'onPointerCancel', htmlName: 'onpointercancel' },
+  { id: 'id-event-onGotPointerCapture', jsxName: 'onGotPointerCapture', htmlName: 'ongotpointercapture' },
+  { id: 'id-event-onLostPointerCapture', jsxName: 'onLostPointerCapture', htmlName: 'onlostpointercapture' },
+  { id: 'id-event-onPointerEnter', jsxName: 'onPointerEnter', htmlName: 'onpointerenter' },
+  { id: 'id-event-onPointerLeave', jsxName: 'onPointerLeave', htmlName: 'onpointerleave' },
+  { id: 'id-event-onPointerOver', jsxName: 'onPointerOver', htmlName: 'onpointerover' },
+  { id: 'id-event-onPointerOut', jsxName: 'onPointerOut', htmlName: 'onpointerout' },
+  // Selection Events
+  { id: 'id-event-onSelect', jsxName: 'onSelect', htmlName: 'onselect' },
+  // Touch Events
+  { id: 'id-event-onTouchCancel', jsxName: 'onTouchCancel', htmlName: 'ontouchcancel' },
+  { id: 'id-event-onTouchEnd', jsxName: 'onTouchEnd', htmlName: 'ontouchend' },
+  { id: 'id-event-onTouchMove', jsxName: 'onTouchMove', htmlName: 'ontouchmove' },
+  { id: 'id-event-onTouchStart', jsxName: 'onTouchStart', htmlName: 'ontouchstart' },
+  // UI Events
+  { id: 'id-event-onScroll', jsxName: 'onScroll', htmlName: 'onscroll' },
+  // Wheel Events
+  { id: 'id-event-onWheel', jsxName: 'onWheel', htmlName: 'onwheel' },
+  // Media Events
+  { id: 'id-event-onAbort', jsxName: 'onAbort', htmlName: 'onabort' },
+  { id: 'id-event-onCanPlay', jsxName: 'onCanPlay', htmlName: 'oncanplay' },
+  { id: 'id-event-onCanPlayThrough', jsxName: 'onCanPlayThrough', htmlName: 'oncanplaythrough' },
+  { id: 'id-event-onDurationChange', jsxName: 'onDurationChange', htmlName: 'ondurationchange' },
+  { id: 'id-event-onEmptied', jsxName: 'onEmptied', htmlName: 'onemptied' },
+  { id: 'id-event-onEncrypted', jsxName: 'onEncrypted', htmlName: 'onencrypted' },
+  { id: 'id-event-onEnded', jsxName: 'onEnded', htmlName: 'onended' },
+  { id: 'id-event-onError', jsxName: 'onError', htmlName: 'onerror' },
+  { id: 'id-event-onLoadedData', jsxName: 'onLoadedData', htmlName: 'onloadeddata' },
+  { id: 'id-event-onLoadedMetadata', jsxName: 'onLoadedMetadata', htmlName: 'onloadedmetadata' },
+  { id: 'id-event-onLoadStart', jsxName: 'onLoadStart', htmlName: 'onloadstart' },
+  { id: 'id-event-onPause', jsxName: 'onPause', htmlName: 'onpause' },
+  { id: 'id-event-onPlay', jsxName: 'onPlay', htmlName: 'onplay' },
+  { id: 'id-event-onPlaying', jsxName: 'onPlaying', htmlName: 'onplaying' },
+  { id: 'id-event-onProgress', jsxName: 'onProgress', htmlName: 'onprogress' },
+  { id: 'id-event-onRateChange', jsxName: 'onRateChange', htmlName: 'onratechange' },
+  { id: 'id-event-onSeeked', jsxName: 'onSeeked', htmlName: 'onseeked' },
+  { id: 'id-event-onSeeking', jsxName: 'onSeeking', htmlName: 'onseeking' },
+  { id: 'id-event-onStalled', jsxName: 'onStalled', htmlName: 'onstalled' },
+  { id: 'id-event-onSuspend', jsxName: 'onSuspend', htmlName: 'onsuspend' },
+  { id: 'id-event-onTimeUpdate', jsxName: 'onTimeUpdate', htmlName: 'ontimeupdate' },
+  { id: 'id-event-onVolumeChange', jsxName: 'onVolumeChange', htmlName: 'onvolumechange' },
+  { id: 'id-event-onWaiting', jsxName: 'onWaiting', htmlName: 'onwaiting' },
+  // Image Events
+  { id: 'id-event-onLoad', jsxName: 'onLoad', htmlName: 'onload' },
+  // Details Events
+  { id: 'id-event-onToggle', jsxName: 'onToggle', htmlName: 'ontoggle' },
+];

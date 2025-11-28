@@ -1,0 +1,2 @@
+
+export { SettingsList } from '../SettingsList';

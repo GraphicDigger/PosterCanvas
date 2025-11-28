@@ -1,0 +1,15 @@
+export const IMG_TAG_ATTRIBUTES = [
+  { id: 'id-tag-img-alt', jsxName: 'alt', htmlName: 'alt' },
+  { id: 'id-tag-img-crossOrigin', jsxName: 'crossOrigin', htmlName: 'crossorigin' },
+  { id: 'id-tag-img-decoding', jsxName: 'decoding', htmlName: 'decoding' },
+  { id: 'id-tag-img-height', jsxName: 'height', htmlName: 'height' },
+  { id: 'id-tag-img-importance', jsxName: 'importance', htmlName: 'importance' },
+  { id: 'id-tag-img-isMap', jsxName: 'isMap', htmlName: 'ismap' },
+  { id: 'id-tag-img-loading', jsxName: 'loading', htmlName: 'loading' },
+  { id: 'id-tag-img-referrerPolicy', jsxName: 'referrerPolicy', htmlName: 'referrerpolicy' },
+  { id: 'id-tag-img-sizes', jsxName: 'sizes', htmlName: 'sizes' },
+  { id: 'id-tag-img-src', jsxName: 'src', htmlName: 'src' },
+  { id: 'id-tag-img-srcSet', jsxName: 'srcSet', htmlName: 'srcset' },
+  { id: 'id-tag-img-useMap', jsxName: 'useMap', htmlName: 'usemap' },
+  { id: 'id-tag-img-width', jsxName: 'width', htmlName: 'width' },
+];

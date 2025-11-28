@@ -1,0 +1,1 @@
+export { selectNotificationEntities } from '../../eventNotification';

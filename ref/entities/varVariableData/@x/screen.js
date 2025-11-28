@@ -1,0 +1,1 @@
+export { selectSelectedScreenId } from '../../uiScreen/model/store/selector';

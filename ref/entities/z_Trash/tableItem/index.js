@@ -1,0 +1,1 @@
+export { ActorRoleTableItem } from './ActorRoleTableItem';

@@ -1,0 +1,1 @@
+export { setMode } from '../../canvas';
